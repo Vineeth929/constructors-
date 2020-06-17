@@ -1,4 +1,4 @@
-# Default constructor_____________:)
+(default constructors):
 (example-1):
 class person:
     def __init__(self):
@@ -9,7 +9,7 @@ class person:
         print('age of the person=',self.age)
 p=person()
 p.display()
-# parametirized constructor_________:)
+(parametirized constructors):
 (example-1):
 class person:
     def __init__(self,x,y):
@@ -20,3 +20,12 @@ class person:
         print('age of the person=',self.age)
 p1=person('vineeth',22)
 p1.display()
+(destructers in python):
+(example-1):
+class sample:
+    def __init__(self):
+        print('take a risk')
+    def __del__(self):
+        print('adventure life')
+s=sample()
+del s
